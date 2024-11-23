@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Triggerbot</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <div>
+    <label for="frame-rate">frame rate</label>
+    <input type="number" id="frame-rate" min="1" max="1000" value="165">
+  </div>
+  <div>
+    <button id="start">start screen capture</button>
+  </div>
+  <div>
+    <span id="debug"></span>
+  </div>
+  <div>
+    <canvas></canvas>
+  </div>
+</body>
+</html>

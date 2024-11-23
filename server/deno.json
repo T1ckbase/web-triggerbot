@@ -1,0 +1,5 @@
+{
+    "tasks": {
+        "start": "deno --allow-env --allow-ffi --allow-net main.ts"
+    }
+}
